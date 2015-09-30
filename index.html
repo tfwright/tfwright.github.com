@@ -8,14 +8,7 @@
 	<script>
   	$(document).ready(function(){
   	  
-  	  $("#phil").hover(function(event){
-  	    $(this).children(".sub").delay(100).show("fast");
-  	  },
-  	  function(event){
-  	    $(this).children(".sub").delay(100).hide("fast");
-  	  });
-  	  
-  	  $("#code").hover(function(event){
+  	  $(".title").hover(function(event){
   	    $(this).children(".sub").delay(100).show("fast");
   	  },
   	  function(event){
@@ -64,20 +57,27 @@
 		<div id="position">
 			<div id="content">
 			  <ul class="main">
-  			  <li style="margin-left:-15px">tfw</li>
-  			  <li id="phil">
-  			    <a href="#">phil</a>
-  			    <ul class="sub">
-  			      <li><a href="http://phi.tfwright.info">notes</a></li>
-  			    </ul>
-  			  </li>
-  			  <li id="code">
-  			    <a href="#">code</a>
-  			    <ul class="sub">
-  			      <li><a href="http://github.com/tfwright">repos</a></li>
-  			      <li><a href="https://docs.google.com/document/d/1PkcfXFLvePuLTEG9Nnea5zNWr4FsSGxEVQkoec-2_as/edit">r&#233;sum&#233;</a></li>
-  			    </ul>
-  			  </li>
+  			  	<li style="margin-left:-15px">tfw</li>
+  			  	<li class="titl">
+  			    		<a href="#">phil</a>
+  			    		<ul class="sub">
+  					 <li><a href="http://phi.tfwright.info">notes</a></li>
+  			    		</ul>
+  			  	</li>
+  			  	<li class="titl">
+  			    		<a href="#">code</a>
+  			    		<ul class="sub">
+  			      			<li><a href="http://github.com/tfwright">repos</a></li>
+  			      			<li><a href="https://docs.google.com/document/d/1PkcfXFLvePuLTEG9Nnea5zNWr4FsSGxEVQkoec-2_as/edit">r&#233;sum&#233;</a></li>
+  			    		</ul>
+  			  	</li>
+				<li class="titl">
+  			    		<a href="#">tune</a>
+  			    		<ul class="sub">
+  			      			<li><a href="http://www.last.fm/user/thomasf">last.fm</a></li>
+  			      			<li><a href="http://www.rdio.com/people/tfwright/">rdio</a></li>
+  			    		</ul>
+  			  	</li>
 			  </ul>
 			</div>
 		</div>
